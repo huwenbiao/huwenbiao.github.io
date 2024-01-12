@@ -5,53 +5,52 @@ theme = "PaperMod"
 hasCJKLanguage = "true"
 
 [[menu.main]]
-  name = "Home"
+  name = "主页"
   weight = 10
   identifier = "home"
   url = "/"
 
 [[menu.main]]
-  name = "Posts"
+  name = "博客"
   weight = 40
   identifier = "posts"
   url = "/posts/"
 
 [[menu.main]]
-  name = "Tags"
+  name = "标签"
   weight = 40
   identifier = "tags"
   url = "/tags/"
 
 [[menu.main]]
-  name = "Archives"
+  name = "存档"
   weight = 40
   identifier = "archives"
   url = "/archives/"
-
 
 [params.profileMode]
 enabled = true
 title = "小院儿"
 subtitle = "我有一个小院，门前看书，院里种菜"
-imageUrl = "https://img2.baidu.com/it/u=3194195262,620932777&fm=253&fmt=auto&app=138&f=JPEG?w=718&h=500"
+imageUrl = "home.png"
 imageTitle = "小书店"
 imageWidth = 120
 imageHeight = 120
-
-[[params.profileMode.buttons]]
-name = "Archive"
-url = "/archives"
-
-[[params.profileMode.buttons]]
-name = "Github"
-url = "https://github.com/"
 
 [[params.socialIcons]]
 name = "Wechat"
 url = "https://baidu.com"
 
 [[params.socialIcons]]
+name = "qq"
+url = "https://github.com/huwenbiao"
+
+[[params.socialIcons]]
 name = "github"
+url = "https://github.com/huwenbiao"
+
+[[params.socialIcons]]
+name = "email"
 url = "https://github.com/huwenbiao"
 
 [outputs]
