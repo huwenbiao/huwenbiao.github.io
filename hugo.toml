@@ -28,9 +28,15 @@ hasCJKLanguage = "true"
   identifier = "archives"
   url = "/archives/"
 
+[[menu.main]]
+  name = "搜索"
+  weight = 40
+  identifier = "search"
+  url = "/search/"
+
 [params.profileMode]
 enabled = true
-title = "小院儿"
+title = "Yard"
 subtitle = "我有一个小院，门前看书，院里种菜"
 imageUrl = "home.png"
 imageTitle = "小书店"
@@ -53,9 +59,9 @@ url = "https://github.com/huwenbiao"
 name = "email"
 url = "https://github.com/huwenbiao"
 
+# for search
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
-
 [params.fuseOpts]
 isCaseSensitive = false
 shouldSort = true
@@ -67,6 +73,8 @@ keys = [ "title", "permalink", "summary", "content" ]
 
 [params]
 ShowCodeCopyButtons = true
-# ShowPostNavLinks = true
-# ShowBreadCrumbs = true
 ShowReadingTime = true
+comments = true
+
+[params.analytics.google]
+SiteVerificationTag = "G-HBD4210GLV"
