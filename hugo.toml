@@ -1,62 +1,53 @@
 baseURL = "https://huwenbiao.github.io/"
 languageCode = "zh-cn"
-title = "文彪的小院"
+title = "Wenbiao's Home"
 theme = "PaperMod"
 hasCJKLanguage = "true"
 
 [[menu.main]]
   name = "主页"
-  weight = 10
+  weight = 1
   identifier = "home"
   url = "/"
 
 [[menu.main]]
   name = "博客"
-  weight = 40
+  weight = 2
   identifier = "posts"
   url = "/posts/"
 
 [[menu.main]]
   name = "标签"
-  weight = 40
+  weight = 3
   identifier = "tags"
   url = "/tags/"
 
 [[menu.main]]
   name = "存档"
-  weight = 40
+  weight = 4
   identifier = "archives"
   url = "/archives/"
 
 [[menu.main]]
-  name = "搜索"
-  weight = 40
+  name = "搜索 🔍️"
+  weight = 5
   identifier = "search"
   url = "/search/"
 
 [params.profileMode]
 enabled = true
-title = "Yard"
-subtitle = "我有一个小院，门前看书，院里种菜"
+title = "小院儿"
+subtitle = "我有一所小院儿，门前看书，院后种菜儿"
 imageUrl = "home.png"
 imageTitle = "小书店"
 imageWidth = 120
 imageHeight = 120
 
 [[params.socialIcons]]
-name = "Wechat"
-url = "https://baidu.com"
-
-[[params.socialIcons]]
-name = "qq"
-url = "https://github.com/huwenbiao"
-
+name = "email"
+url = "mailto:huwenbiao1989@gmail.com"
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/huwenbiao"
-
-[[params.socialIcons]]
-name = "email"
 url = "https://github.com/huwenbiao"
 
 # for search
