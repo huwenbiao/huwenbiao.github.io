@@ -76,5 +76,6 @@ ShowCodeCopyButtons = true
 ShowReadingTime = true
 comments = true
 
-[params.analytics.google]
-SiteVerificationTag = "G-HBD4210GLV"
+[services]
+  [services.googleAnalytics]
+    ID = 'G-HBD4210GLV'
